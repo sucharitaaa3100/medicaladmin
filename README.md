@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# 🩺 Device CRM + Inventory Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-featured *React + Redux dashboard* to manage medical device installations, service visits, AMC/CMC contracts, facility CRM logs, and alerts — complete with file uploads, dark mode, and export functionality.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 🔧 Device Inventory
+- Visual dashboard of all devices
+- Status (Online / Offline / Maintenance) with color codes
+- Facility info, battery %, last service, and AMC/CMC indicators
+- Status dropdown & editable fields
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🛠 Installation & Training
+- Log installations with engineer, facility, date
+- Upload installation/unboxing photos
+- Training completion status
+- Clean form layout with validation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🧰 Service Visit Logs
+- Add service logs (Preventive / Breakdown)
+- Include date, engineer, notes
+- Attach photos or PDF reports
 
-### `npm test`
+### 📅 AMC/CMC Contract Tracker
+- Add contracts with start/end date
+- Visual alert for upcoming expirations (orange warning)
+- Export contracts as CSV file
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🚨 Alerts & Photo Logs
+- Upload alert descriptions and attach photos
+- Filter and view logged issues
+- LocalStorage-based persistence
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧠 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- *ReactJS* (frontend UI)
+- *Redux Toolkit* (state management)
+- *Material UI* (MUI) for components
+- *SCSS Modules* for scoped styling
+- *Formik + Yup* for form validation
+- *LocalStorage* for mock persistence
+- *Notistack* for notifications
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🖼 Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> (Include screenshots of: device list, installation form, contract list with warnings, dark mode UI, etc.)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠 Local Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. *Clone the repo:*
+   ```bash
+   git clone https://github.com/your-username/device-crm-dashboard.git
+   cd device-crm-dashboard
 
-## Learn More
+2. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+3. Run locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. App will be live at http://localhost:3000
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5.Folder Structure
 
-### Advanced Configuration
+src/
+├── Components/
+│   └── Modules/
+│       ├── Alerts/
+│       ├── AMC/
+│       ├── Dashboard/
+│       ├── Installation/
+│       ├── Inventory/
+│       └── Service/
+├── Redux/
+│   ├── Slices/
+│   └── Store.js
+├── Styles/
+├── Theme/
+├── App.js
+├── App.scss
+├── index.js
+└── index.scss
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+🎨 Themes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Supports light and dark mode, automatically based on system preference. Uses CSS variables and SCSS modules.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+📦 Data Storage
+
+This project uses localStorage for mock data storage. For real backend integration, you can swap with:
+
+json-server
+
+Firebase
+
+Express + MongoDB or any backend API
+
+
+
+---
+
+🧪 Optional Enhancements (Future Ready)
+
+[ ] QR code scanning for device IDs
+
+[ ] Role-based access (Admin, Technician)
+
+[ ] Authentication with Firebase/Auth0
+
+[ ] Backend with Express + MongoDB
+
+
+
+---
+
+👨‍💻 Author
+Sucharita Nandy
+
+
+
+
+
+
