@@ -49,7 +49,8 @@ A full-featured *React + Redux dashboard* to manage medical device installations
 
 ## 🖼 Screenshots
 
-> (Include screenshots of: device list, installation form, contract list with warnings, dark mode UI, etc.)
+![Screenshot 2025-07-03 192541](https://github.com/user-attachments/assets/e124b1fd-204e-4db5-b08b-efd9c963f4f4)
+
 
 ---
 
@@ -57,7 +58,7 @@ A full-featured *React + Redux dashboard* to manage medical device installations
 
 1. *Clone the repo:*
    ```bash
-   git clone https://github.com/your-username/device-crm-dashboard.git
+   git clone https://github.com/sucharitaaa3100/medicaladmin.git
    cd device-crm-dashboard
 
 2. Install dependencies:
