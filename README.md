@@ -49,7 +49,24 @@ A full-featured *React + Redux dashboard* to manage medical device installations
 
 ## 🖼 Screenshots
 
-![Screenshot 2025-07-03 192541](https://github.com/user-attachments/assets/e124b1fd-204e-4db5-b08b-efd9c963f4f4)
+![Screenshot 2025-07-03 192541](https://github.com/user-attachments/assets/aa380691-87e9-4abd-b222-b04683e86a4e)
+![Screenshot 2025-07-03 192604](https://github.com/user-attachments/assets/06100e66-bd20-4920-bcd0-fb8661731d94)
+![Screenshot 2025-07-03 192621](https://github.com/user-attachments/assets/6fe2374b-0d61-4009-8914-204afd016fa5)
+![Screenshot 2025-07-03 192641](https://github.com/user-attachments/assets/8c60f595-f7bc-4b78-85ae-c02a41302deb)
+![Screenshot 2025-07-03 192657](https://github.com/user-attachments/assets/f15d9f1e-8c07-47a9-9eb9-27779565219e)
+![Screenshot 2025-07-03 192718](https://github.com/user-attachments/assets/2585b2bc-5975-4c3b-bb2e-fc1d3a5e5d9a)
+![Screenshot 2025-07-03 192813](https://github.com/user-attachments/assets/574c8feb-f996-47d7-8cb1-d42d5902820b)
+![Screenshot 2025-07-03 192906](https://github.com/user-attachments/assets/53462847-1b6d-4cb0-9983-775507d1c5a5)
+![Screenshot 2025-07-03 192930](https://github.com/user-attachments/assets/408767e6-b278-4300-8258-3963838ddabd)
+
+
+
+
+
+
+
+
+
 
 
 ---
