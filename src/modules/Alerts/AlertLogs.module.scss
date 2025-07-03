@@ -1,0 +1,46 @@
+.wrapper {
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #9130ff;
+}
+
+.formCard,
+.alertCard {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s ease;
+}
+
+body.dark .formCard,
+body.dark .alertCard {
+  background: #2c2c2c;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.btn {
+  background-color: #9130ff !important;
+  color: white !important;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-transform: none;
+}
+
+.previewImage {
+  max-width: 200px;
+  max-height: 150px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  object-fit: cover;
+  display: block;
+}

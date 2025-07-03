@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 2rem;
+  background-color: var(--mui-palette-background-paper);
+  color: var(--mui-palette-text-primary);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(145, 48, 255, 0.08);
+  margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #9130ff;
+}
+
+.btn {
+  background-color: #9130ff !important;
+  color: white !important;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-transform: none;
+  margin-top: 1rem;
+}

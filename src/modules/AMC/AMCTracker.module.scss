@@ -1,0 +1,72 @@
+.wrapper {
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background, #f5f7fb);
+  color: var(--text-primary, #222);
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.heading {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary, #222);
+}
+
+.subheading {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--text-primary, #222);
+}
+
+.formCard {
+  background-color: var(--card-bg, #fff);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  color: var(--text-primary, #222);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.exportBtn {
+  background-color: #9130ff !important;
+  color: white !important;
+  font-weight: 600;
+  text-transform: none;
+  margin-bottom: 1rem;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.contractCard {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  background-color: var(--card-bg, #fff);
+  color: var(--text-primary, #222);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.expiring {
+  border-left: 5px solid #ff9800;
+  background-color: rgba(255, 152, 0, 0.08);
+}
+
+.warning {
+  color: #ff9800;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.empty {
+  color: var(--text-secondary, #777);
+}
+
+body.dark {
+  --background: #121212;
+  --card-bg: #1e1e1e;
+  --text-primary: #f1f1f1;
+  --text-secondary: #aaa;
+}

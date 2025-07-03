@@ -1,0 +1,47 @@
+.wrapper {
+  padding: 2rem;
+  background: var(--card-bg, #fff);
+  color: var(--text-primary, #222);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(145, 48, 255, 0.08);
+  margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary, #9130ff);
+}
+
+.sub {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary, #555);
+}
+
+.btn {
+  background-color: #9130ff !important;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-transform: none;
+  margin-top: 1rem;
+}
+
+input[type='file'] {
+  padding: 10px 0;
+  font-family: inherit;
+  color: var(--text-primary, #222);
+}
+
+
+body.dark {
+  --card-bg: #1e1e1e;
+  --text-primary: #f1f1f1;
+  --text-secondary: #aaa;
+}

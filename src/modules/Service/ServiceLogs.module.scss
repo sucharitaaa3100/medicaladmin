@@ -1,0 +1,18 @@
+.wrapper {
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--mui-palette-background-default);
+  color: var(--mui-palette-text-primary);
+  min-height: 100vh;
+}
+
+.heading {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.logCard {
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+

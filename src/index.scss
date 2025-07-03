@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: #9130ff;
+  --text-light: #444;
+  --text-dark: #fff;
+  --bg-light: #f5f7fb;
+  --bg-dark: #1e1e1e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark,
+body.dark #root {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  color: #f44336;
+  font-size: 0.75rem;
+}
+
+.MuiSnackbarContent-root {
+  font-family: 'Poppins', sans-serif;
+}
+
+
